@@ -4,10 +4,6 @@
 
 Effective date: [To be provided]
 
-Developer / responsible party: James Kou
-
-Privacy contact: suspectx01@gmail.com
-
 ## 1. Scope
 
 This policy explains how LiveCard handles information when you select photos, create and save cards, export your work, and use purchase features. LiveCard processes photos and creates cards on your device. No LiveCard account is required. The current app has no feature that uploads your photos or cards to a developer-operated server.
@@ -52,7 +48,7 @@ Saved cards remain locally until you delete them or remove the app's data. Delet
 
 Deleting a card in LiveCard does not delete original photos, exported works in your photo library, recipients' copies, system backups, or Apple's transaction records. Manage those items separately in the relevant app or service. System “Offload App” options may retain data, while “Delete App” normally removes local app data. Backup copies must still be managed separately. The app relies on operating-system access protections; absolute security cannot be guaranteed.
 
-You can choose not to select photos, save, or share, and manage available photo permissions and backup settings through the system. For privacy questions, use the contact address above. Please do not send unnecessary photos or sensitive information when contacting us.
+You can choose not to select photos, save, or share, and manage available photo permissions and backup settings through the system.
 
 ## 8. Policy webpage
 
@@ -62,4 +58,4 @@ This policy is intended to be published through GitHub Pages. When you visit a G
 
 This policy needs to be updated if information handling changes. The published version will include an effective date and an accessible location for the current policy.
 
-[Before publication, confirm: distribution regions, intended age group, and any required children's privacy or local privacy-rights and request procedures; the final policy URL and whether the webpage adds any other information-processing features.]
+[Before publication, confirm: required developer / responsible-party information and an effective privacy contact; distribution regions, intended age group, and any required children's privacy or local privacy-rights and request procedures; the final policy URL and whether the webpage adds any other information-processing features.]
