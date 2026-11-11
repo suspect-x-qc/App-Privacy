@@ -6,6 +6,7 @@
 
 - [简体中文草稿](livecard/privacy.zh-Hans.md)
 - [English draft](livecard/privacy.en.md)
+- [中英文网页草稿 / Bilingual review draft](livecard/index.html)
 
 生效日期仍待确定，发布前还须确认所需的开发者信息与有效联系方式、发布地区、年龄定位及正式版购买功能。请先完成审核，再移除草稿与待确认标记。
 
@@ -13,7 +14,7 @@
 
 采用 GitHub Pages 静态页面，每个应用独立目录。LiveCard 建议入口为 `livecard/index.html`，页面提供中英文切换或链接，不引入分析脚本、第三方字体或广告。
 
-目前尚未创建或发布该正式网页。草稿已补充 GitHub Pages 出于安全目的记录和保存访问者 IP 地址的说明，并链接 GitHub 隐私声明；最终页面仍须核对实际使用的脚本和外部资源。
+已创建明确标注未生效的中英文草稿网页 `livecard/index.html`，供审核；这不代表正式政策已生效。草稿已补充 GitHub Pages 出于安全目的记录和保存访问者 IP 地址的说明，并链接 GitHub 隐私声明；最终页面仍须核对实际使用的脚本和外部资源。
 
 完成审核后再添加静态 HTML 与 `.nojekyll`，提交、推送并确认仓库 Settings → Pages 的发布来源。是否开启 Pages 及其发布来源须由仓库负责人确认。
 
@@ -32,3 +33,7 @@
 来源：[GitHub Pages 发布来源](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)；[默认地址与访问数据](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)。
 
 提交草稿不代表 Pages 已开启，也不代表政策已生效。本次内容不更改仓库可见性或任何访问权限。
+
+## 草稿网页
+
+网页保留所有待确认信息，并设置 noindex；无脚本、第三方字体、分析或广告。公开审核草稿不代表其已成为正式隐私政策，也不应替换 App 的正式隐私政策配置。

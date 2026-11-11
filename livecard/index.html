@@ -1,0 +1,59 @@
+<!doctype html><html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>LiveCard 隐私政策草稿 · Privacy Policy Draft</title><style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f6f7f9;color:#202636;font:17px/1.85 system-ui,-apple-system,sans-serif}main{max-width:860px;margin:auto;padding:40px 24px 70px}header{border-bottom:1px solid #d8dce4;padding-bottom:24px}h1{line-height:1.25;font-size:clamp(28px,5vw,42px);letter-spacing:-.025em}h2{font-size:23px;margin-top:40px;line-height:1.4}a{color:#2156ad;text-underline-offset:4px}nav{display:flex;gap:24px;flex-wrap:wrap}.notice{padding:18px 20px;background:#fff3d5;border-left:4px solid #b77800;border-radius:4px;font-weight:600}section{padding-top:22px}section+section{margin-top:60px;border-top:1px solid #d8dce4}p{overflow-wrap:anywhere}footer{margin-top:50px;font-size:14px;color:#586174}</style></head><body><main><header><p>LiveCard · REVIEW DRAFT</p><h1>隐私政策草稿<br><span lang="en">Privacy Policy Draft</span></h1><p class="notice">仅供审核，尚未生效。未确认信息保留在下文。<br><span lang="en">For review only. Not yet effective. Unconfirmed information remains below.</span></p><nav aria-label="Language / 语言"><a href="#zh">简体中文</a><a href="#en" lang="en">English</a></nav></header><section id="zh" lang="zh-Hans" aria-label="简体中文"><p class="notice">待审核草稿，尚未生效。发布前须补齐方括号内容，并确认正式版本、商店隐私信息与本政策一致。</p>
+<p>生效日期：[待填写]</p>
+<h2>1. 适用范围</h2>
+<p>本政策说明 LiveCard 在选择照片、制作与保存卡片、导出作品及使用购买功能时如何处理信息。LiveCard 的照片处理与卡片制作在设备上进行，不需要注册 LiveCard 账号。当前应用没有向开发者服务器上传照片或卡片的功能。</p>
+<h2>2. 照片与主体处理</h2>
+<p>您通过 Apple 系统照片选择器选择要使用的照片。LiveCard 接收您选择的内容，不会自行扫描整个照片图库。若所选照片保存在 iCloud，系统可能需要通过 Apple 的服务下载该照片。</p>
+<p>LiveCard 在设备上完成构图、裁切、主体分割和视觉效果渲染，使用 Apple Vision 生成主体遮罩、轮廓及位置数据。这些数据用于把效果放置在照片主体周围，不用于识别人物身份、建立人脸身份档案或训练开发者的 AI 模型。照片及主体数据不会为这些处理操作发送到开发者服务器。</p>
+<p>保存卡片时，应用在本地保存用于卡片的图像、主体遮罩与轮廓、卡片名称、创建时间、效果和边框设置，以及排列顺序。当前新建流程会重新渲染裁切后的图像，不主动复制原照片的 EXIF 信息；已有卡片可能保留早期版本写入的图像数据及其中包含的元数据。</p>
+<h2>3. 本地设置、保存与备份</h2>
+<p>应用在设备上的应用数据目录保存卡片，并在本地保存试用次数、展示设置等信息。这些信息用于恢复您的卡册和应用状态，不用于广告或跨应用跟踪。</p>
+<p>应用未提供自建云端卡册同步。设备备份可能包含本地应用数据，具体取决于 Apple 的备份机制及您的设置。保存到系统照片图库的作品也可能随 iCloud 照片同步。请通过系统设置管理这些服务。因此，“在设备上处理”不表示数据在任何情况下都不会进入您启用的系统备份或云服务。</p>
+<h2>4. 导出、系统照片权限与分享</h2>
+<p>导出时，LiveCard 在设备上生成临时图像和视频文件，并交给系统分享面板。仅打开分享面板不会自动把作品保存到照片图库。您选择“保存 Live Photo”时，应用会请求向照片图库添加内容的权限。拒绝此权限会阻止保存到图库，不影响已有卡片的本地存储。</p>
+<p>您选择分享对象或其他应用后，相应内容会提供给您选定的接收方或服务，其处理方式由对方的政策和您的设置决定。分享内容可能包含照片中可见的个人信息。请在分享前确认内容与接收方。</p>
+<h2>5. 内购与恢复购买</h2>
+<p>在启用 App Store 内购的版本中，购买与恢复通过 Apple StoreKit 处理。Apple 处理付款和 Apple 账户验证；LiveCard 不接收您的完整支付卡号或 Apple 账户密码。应用读取 Apple 提供的商品与已验证交易信息，包括商品标识、交易标识、购买权益及撤销或有效状态，用于解锁功能、恢复购买和更新权益，不上传到开发者服务器。</p>
+<p>您主动选择恢复购买时，应用会向 App Store 请求同步，Apple 可能要求验证账户。应用也可在启动、返回前台和收到交易更新时检查权益。恢复购买不会恢复本地卡片或照片。</p>
+<p>当前开发版本尚未配置线上商品。最终发布前须依据实际上线的购买功能确认本节；本地 StoreKit 测试不是真实付款。</p>
+<h2>6. 诊断、广告与跟踪</h2>
+<p>当前版本没有集成第三方广告、用户行为分析或崩溃上报 SDK，也没有跨应用广告跟踪功能。主体识别失败时，应用会向系统日志写入错误说明。应用没有自行向开发者服务器上传这些日志的功能。</p>
+<p>Apple 可能根据系统设置及其政策处理系统诊断、崩溃信息和 App Store 服务信息；这与应用内的照片处理不同。本政策不代替 Apple 或您主动使用的分享服务的隐私说明。</p>
+<h2>7. 保留、删除与您的选择</h2>
+<p>已保存的卡片在本地保留，直到您删除卡片或删除应用数据。在卡片编辑页执行删除，会删除该卡片的本地存档。排序文件可能暂时保留已删除卡片的随机标识，但不包含该卡片的图像。导出的临时文件在不再被使用时尝试清理；若应用异常退出，残留文件可能由系统稍后清理。</p>
+<p>删除应用中的卡片不会删除照片图库中的原图、已导出的作品、接收方保存的副本、系统备份或 Apple 的交易记录。请在相应应用或服务中分别管理这些内容。在系统中选择“卸载 App”可能保留数据，“删除 App”通常会移除其本地应用数据，备份副本仍须另行管理。应用依赖操作系统的访问保护，不保证绝对安全。</p>
+<p>您可以不选择照片、不保存或分享作品，并通过系统设置管理可用的照片权限及备份设置。</p>
+<h2>8. 政策网页</h2>
+<p>本政策拟通过 GitHub Pages 发布。访问 GitHub Pages 托管的页面时，GitHub 会出于安全目的记录和保存访问者的 IP 地址，无论访问者是否登录 GitHub。请参阅 <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub 隐私声明</a>。此草稿尚未作为正式政策生效；正式发布前将核对页面未引入额外的分析脚本、第三方字体或广告。</p>
+<h2>9. 政策更新</h2>
+<p>当信息处理方式变化时，本政策需要相应更新。正式发布时将填写生效日期并提供可访问的最新版本。</p>
+<p>[发布前确认：所需的开发者／数据处理责任方信息及有效隐私联系方式；适用地区、目标年龄群体及是否需要补充儿童隐私、当地隐私权利与行使方式；政策网页的最终网址及页面是否添加其他数据处理功能。]</p></section><section id="en" lang="en" aria-label="English"><p class="notice">Draft for review. Not yet effective. Complete the bracketed fields and confirm that the released app and its App Store privacy disclosures match this policy before publication.</p>
+<p>Effective date: [To be provided]</p>
+<h2>1. Scope</h2>
+<p>This policy explains how LiveCard handles information when you select photos, create and save cards, export your work, and use purchase features. LiveCard processes photos and creates cards on your device. No LiveCard account is required. The current app has no feature that uploads your photos or cards to a developer-operated server.</p>
+<h2>2. Photos and subject processing</h2>
+<p>You select photos through Apple&#x27;s system photo picker. LiveCard receives the content you select and does not independently scan your entire photo library. If a selected photo is stored in iCloud, the system may need to download it through Apple&#x27;s services.</p>
+<p>LiveCard performs framing, cropping, subject segmentation, and visual rendering on your device. It uses Apple Vision to create subject masks, outlines, and position data. This data places effects around the subject; it is not used to identify people, build facial identity profiles, or train the developer&#x27;s AI models. Photos and subject data are not sent to a developer-operated server for these operations.</p>
+<p>When you save a card, the app stores its image, subject mask and outline, card name, creation time, effect and border settings, and ordering information locally. The current card creation flow renders a new cropped image without deliberately copying the original photo&#x27;s EXIF metadata. Existing cards may retain image data and embedded metadata saved by earlier versions.</p>
+<h2>3. Local settings, storage, and backups</h2>
+<p>Cards are stored in the app&#x27;s data directory on your device. Trial-use counts and display preferences are also stored locally to maintain your collection and app state, not for advertising or cross-app tracking.</p>
+<p>The app does not provide its own cloud collection sync. Device backups may include local app data, depending on Apple&#x27;s backup mechanisms and your settings. Works saved to the system photo library may also sync through iCloud Photos. You can manage these services in system settings. On-device processing therefore does not mean your data can never enter system backups or cloud services you enable.</p>
+<h2>4. Export, photo permissions, and sharing</h2>
+<p>When you export, LiveCard creates temporary image and video files on your device and makes them available through the system share sheet. Opening the share sheet does not automatically save your work to your photo library. Choosing “Save Live Photo” requests permission to add content to your photo library. Denying this permission prevents saving to the library but does not affect local storage of existing cards.</p>
+<p>When you choose a recipient or another app, the selected content is provided to that recipient or service. Their policies and your settings govern further handling. Shared content may include personal information visible in the photo. Check the content and recipient before sharing.</p>
+<h2>5. In-app purchases and restoration</h2>
+<p>In versions with App Store purchases enabled, purchases and restoration use Apple StoreKit. Apple handles payment and Apple Account authentication. LiveCard does not receive your full payment-card number or Apple Account password. The app reads product and verified transaction information supplied by Apple, including product identifiers, transaction identifiers, purchase entitlements, and revocation or validity status. This information unlocks features, restores purchases, and updates access; it is not uploaded to a developer-operated server.</p>
+<p>When you choose to restore purchases, the app requests synchronization with the App Store, and Apple may ask you to authenticate. The app may also check entitlements at launch, when returning to the foreground, and when transaction updates arrive. Restoring purchases does not restore locally saved cards or photos.</p>
+<p>The current development version does not have live products configured. Confirm this section against the purchase features actually released before publication. Local StoreKit testing does not involve real payment.</p>
+<h2>6. Diagnostics, advertising, and tracking</h2>
+<p>The current version includes no third-party advertising, behavioral analytics, or crash-reporting SDK, and no cross-app advertising tracking feature. When subject recognition fails, the app writes an error description to the system log. The app does not itself upload these logs to a developer-operated server.</p>
+<p>Apple may process system diagnostics, crash information, and App Store service information according to system settings and its policies. This is separate from the app&#x27;s photo processing. This policy does not replace the privacy information provided by Apple or sharing services you choose to use.</p>
+<h2>7. Retention, deletion, and your choices</h2>
+<p>Saved cards remain locally until you delete them or remove the app&#x27;s data. Deleting a card in the card editor removes its local archive. The ordering file may temporarily retain a deleted card&#x27;s random identifier, but not its image. The app attempts to remove temporary export files when no longer in use. Files left after an unexpected exit may be cleaned up later by the system.</p>
+<p>Deleting a card in LiveCard does not delete original photos, exported works in your photo library, recipients&#x27; copies, system backups, or Apple&#x27;s transaction records. Manage those items separately in the relevant app or service. System “Offload App” options may retain data, while “Delete App” normally removes local app data. Backup copies must still be managed separately. The app relies on operating-system access protections; absolute security cannot be guaranteed.</p>
+<p>You can choose not to select photos, save, or share, and manage available photo permissions and backup settings through the system.</p>
+<h2>8. Policy webpage</h2>
+<p>This policy is intended to be published through GitHub Pages. When you visit a GitHub Pages site, GitHub logs and stores your IP address for security purposes, whether or not you are signed into GitHub. See the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. This draft is not yet effective as the final policy. Before publication, we will check that the page does not introduce additional analytics scripts, third-party fonts, or advertising.</p>
+<h2>9. Policy changes</h2>
+<p>This policy needs to be updated if information handling changes. The published version will include an effective date and an accessible location for the current policy.</p>
+<p>[Before publication, confirm: required developer / responsible-party information and an effective privacy contact; distribution regions, intended age group, and any required children&#x27;s privacy or local privacy-rights and request procedures; the final policy URL and whether the webpage adds any other information-processing features.]</p></section><footer>LiveCard · 草稿 / Draft · <a href="#">返回顶部 / Back to top</a></footer></main></body></html>
